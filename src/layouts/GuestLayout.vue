@@ -1,16 +1,16 @@
 <template>
   <header class="bg w-full h-screen">
     <div class="container">
-      <nav class="">
-        <ul>
+      <nav class="pt-10">
+        <ul class="flex justify-between items-center">
           <li>
-            <router-link to="/"
+            <router-link to="/" class="flex gap-2 items-center"
               ><img src="../assets/img/logo.svg" alt="" />
               <h1 class="text-base text-white">OneLove</h1></router-link
             >
           </li>
-          <li class="text-base text-white">
-            <router-link to="/">Впервые здесь?</router-link>
+          <li class="flex text-base items-center gap-2 text-white">
+            <router-link class="flex items-center" to="/">Впервые здесь?</router-link>
             <Button />
           </li>
         </ul>
