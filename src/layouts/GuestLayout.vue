@@ -17,12 +17,14 @@
       </nav>
 
       <router-view></router-view>
+      <TheFooter />
     </div>
   </header>
 </template>
 
 <script setup>
 import Button from '@/ui-component/Button.vue'
+import TheFooter from '@/components/TheFooter.vue'
 </script>
 
 <style scoped>
