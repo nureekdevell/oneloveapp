@@ -1,6 +1,7 @@
 <template>
   <div class="bg h-screen">
-    ><TheHeader />
+    <TheBanner />
+    <TheHeader />
     <div class="container">
       <div class="w-full min-h-[900px]"><RouterView /></div>
       <div><TheFooter /></div>
@@ -10,6 +11,7 @@
 
 <script setup>
 import TheHeader from '@/components/TheHeader.vue'
+import TheBanner from '@/components/TheBanner.vue'
 import TheFooter from '@/components/TheFooter.vue'
 </script>
 
