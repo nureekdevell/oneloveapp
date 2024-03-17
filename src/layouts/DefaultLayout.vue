@@ -3,7 +3,7 @@
     <TheBanner />
     <TheHeader />
     <div class="container">
-      <div class="w-full min-h-[900px]"><RouterView /></div>
+      <div class="w-full pt-8 min-h-[800px]"><RouterView /></div>
       <div><TheFooter /></div>
     </div>
   </div>
@@ -13,6 +13,11 @@
 import TheHeader from '@/components/TheHeader.vue'
 import TheBanner from '@/components/TheBanner.vue'
 import TheFooter from '@/components/TheFooter.vue'
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  document.cookie = 'locale=RU'
+})
 </script>
 
 <style scoped>

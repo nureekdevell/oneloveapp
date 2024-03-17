@@ -3,7 +3,7 @@
     <div
       id="sticky-banner"
       tabindex="-1"
-      class="fixed top-0 start-0 z-50 p-2 flex justify-between w-full"
+      class="fixed top-0 start-0 z-50 p-2 flex bg-[#1B0522] justify-between w-full"
     >
       <div class="flex items-center mx-auto justify-center">
         <p class="flex items-center font-normal text-white">
