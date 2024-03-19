@@ -3,7 +3,7 @@
     <TheBanner />
     <TheHeader />
     <div class="container">
-      <div class="w-full pt-8 min-h-[800px]"><RouterView /></div>
+      <div class="w-full pt-8 min-h-[calc(100vh-170px)]"><RouterView /></div>
       <div><TheFooter /></div>
     </div>
   </div>
@@ -24,5 +24,7 @@ onMounted(() => {
 .bg {
   height: 100%;
   background-image: url('../public/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
