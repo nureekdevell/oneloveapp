@@ -70,4 +70,9 @@
 import SelectCountry from '../components/SelectCountry.vue'
 </script>
 
-<style scoped></style>
+<style scoped>
+.router-link-actived {
+  height: 2px;
+  width: auto;
+}
+</style>
