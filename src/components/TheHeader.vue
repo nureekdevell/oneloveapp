@@ -71,8 +71,20 @@ import SelectCountry from '../components/SelectCountry.vue'
 </script>
 
 <style scoped>
-.router-link-actived {
-  height: 2px;
-  width: auto;
+.router-link-active {
+  position: relative;
+  color: #fe6703;
+  transition: all 1s ease-out;
+}
+.router-link-active::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 70px;
+  height: 4px;
+  min-width: 100%;
+  transition: all 1s ease-in-out;
+
+  background-image: linear-gradient(to right, #ee0979, #fc1c62, #ff364a, #ff512f, #ff6a00);
 }
 </style>
