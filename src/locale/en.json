@@ -1,3 +1,6 @@
 {
-  "cart": "OneLove"
+  "logo": "OneLove",
+  "link1": "profile",
+  "link2": "messages",
+  "link3": "subscribe"
 }

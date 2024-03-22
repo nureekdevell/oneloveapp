@@ -2,14 +2,20 @@
   <div class="bg-[#2D1436] h-[170px] sticky top-0 pt-10 flex items-center">
     <header class="container">
       <nav class="flex justify-between items-center">
-        <router-link to="/home" class="flex gap-2 items-center"
+        <router-link active-class="none" to="/home" class="flex gap-2 items-center"
           ><img src="../assets/img/logo.svg" alt="" />
-          <h1 class="text-base text-white">{{ $t('cart') }}</h1></router-link
+          <h1 class="text-base text-white">{{ $t('logo') }}</h1></router-link
         >
         <ul class="flex gap-8 items-center text-white">
-          <li class="visited:text-purple-600"><router-link to="/resume">Анкеты</router-link></li>
-          <li><router-link to="/message">Сообщения</router-link></li>
-          <li><router-link to="/subscription">Подписка</router-link></li>
+          <li class="visited:text-purple-600">
+            <router-link to="/resume">{{ $t('link1') }}</router-link>
+          </li>
+          <li>
+            <router-link to="/message">{{ $t('link2') }}</router-link>
+          </li>
+          <li>
+            <router-link to="/subscription">{{ $t('link3') }}</router-link>
+          </li>
 
           <li class="ml-20"><SelectCountry /></li>
         </ul>
@@ -83,7 +89,7 @@ import SelectCountry from '../components/SelectCountry.vue'
   top: 70px;
   height: 4px;
   min-width: 100%;
-  transition: all 1s ease-in-out;
+  transition: all 2s ease-in;
 
   background-image: linear-gradient(to right, #ee0979, #fc1c62, #ff364a, #ff512f, #ff6a00);
 }
