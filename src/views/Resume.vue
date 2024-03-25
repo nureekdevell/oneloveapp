@@ -1,7 +1,11 @@
 <template>
-  <div>Resume</div>
+  <div>
+    <TopItems />
+  </div>
 </template>
 
-<script setup></script>
+<script setup>
+import TopItems from '@/components/TopItems.vue'
+</script>
 
 <style lang="scss" scoped></style>

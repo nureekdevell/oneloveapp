@@ -6,7 +6,7 @@
       <span
         class="relative px-5 py-2.5 outline bg-gradient-to-r hover:from-pink-500 hover:to-orange-500 outline-pink-500 rounded-full hover:bg-opacity-0"
       >
-        Регистрация
+        <slot />
       </span>
     </button>
   </div>
