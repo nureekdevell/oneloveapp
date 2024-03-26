@@ -12,6 +12,7 @@
 
 <script setup>
 import Button from '@/ui-component/Button.vue'
+import axios from 'axios'
 </script>
 
 <style lang="scss" scoped></style>
