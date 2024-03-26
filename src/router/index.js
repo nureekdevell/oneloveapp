@@ -35,6 +35,11 @@ const router = createRouter({
           path: '/subscription',
           name: 'Subscription',
           component: Subscription
+        },
+        {
+          path: '/subscription',
+          name: 'Subscription',
+          component: Subscription
         }
       ]
     },
